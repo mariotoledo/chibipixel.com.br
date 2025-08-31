@@ -110,6 +110,24 @@
       .masthead.segment {
         min-height: auto;
       }
+
+      #mobile-phone {
+        display: none;
+      }
+
+      #bunny {
+        display: inline;
+      }
+    }
+
+    @media only screen and (min-width: 768px) {
+      #mobile-phone {
+        display: block;
+      }
+
+      #bunny {
+        display: none;
+      }
     }
 
     .game-description .game-logo {

@@ -9,14 +9,6 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     </head>
     <body>
-        
-        <!-- Sidebar Menu -->
-        <div class="ui vertical inverted sidebar menu">
-            <a class="item">About Us</a>
-            <a class="item">Contact</a>
-        </div>
-
-        <!-- Page Contents -->
         <div class="pusher">
             <div class="ui inverted vertical masthead center aligned segment candy-jar">
                 <div class="candy-jar-bg"></div>
@@ -28,8 +20,8 @@
                         <div class="header item">
                             Chibi Pixel
                         </div>
-                        <a class="item">About Us</a>
-                        <a class="item">Contact</a>
+                        <a href="#aboutus" class="item">About Us</a>
+                        <a href="#contact" class="item">Contact</a>
                     </div>
                     <div class="ui stackable grid container game-description">
                         <div class="row">
@@ -48,12 +40,13 @@
                                 </div>
                             </div>
                             <div class="six wide column">
-                                <div style="position: relative; float: left;">
+                                <div style="position: relative; float: left;" id="mobile-phone">
                                     <div class="video-wrapper">
                                         <video src="img/candy-jar.mp4" autoplay loop muted></video>
                                     </div>
                                     <img src="img/phone-mock.png" alt="Candy Jar Game" style="position: absolute; width: 300px">
                                 </div>
+                                <img style="width: 100%; margin-bottom: -25px;" src="img/bunny.png" id="bunny">
                             </div>
                         </div>
                     </div>
@@ -62,9 +55,9 @@
         
             <div class="ui vertical stripe segment">
                 <div class="ui text container">
-                    <h3 class="ui header">Games made with passion</h3>
+                    <h3 class="ui header" id="aboutus">Games made with passion</h3>
                     <p>We are a brazilian game development studio, focusing on developing fun and immersive games for all kinds of players. Our passion for anime leads our products to experiences based on japanese pop culture.</p>
-                    <h3 class="ui header">Do you want to talk to us?</h3>
+                    <h3 class="ui header" id="contact">Do you want to talk to us?</h3>
                     <p>Send us an email to <a href="mailto:contato@chibipixe.com.br">contato@chibipixel.com.br</a>!</p>
                 </div>
             </div>
